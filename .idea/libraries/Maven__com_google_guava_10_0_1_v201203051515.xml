@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.google:guava:10.0.1-v201203051515">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/10.0.1-v201203051515/guava-10.0.1-v201203051515.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/10.0.1-v201203051515/guava-10.0.1-v201203051515-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/10.0.1-v201203051515/guava-10.0.1-v201203051515-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

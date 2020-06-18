@@ -1,0 +1,56 @@
+[
+  {
+    "description":"这是一个会返回cookies信息的get请求",
+    "request":{
+      "uri":"/getcookies",
+      "method":"get"
+    },
+    "response":{
+      "text":"恭喜获得cookies成功",
+      "cookies": {
+        "loginname": "true"
+      }
+    }
+  },
+
+
+
+  {
+    "description":"这是需要携带cookies才能访问的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "loginname":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个需要携带cookies信息才能访问的get请求"
+    }
+  },
+
+
+
+  {
+    "description":"这是需要携带cookies才能访问的post请求",
+    "request":{
+      "uri":"/post/with/cookies",
+      "method":"post",
+      "cookies":{
+        "loginname":"true"
+      },
+      "json":{
+        "name":"zhangshan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "zhangsan":"success",
+        "status":"1"
+      }
+    }
+  }
+
+]

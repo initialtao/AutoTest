@@ -1,0 +1,22 @@
+[
+  {
+    "description":"这是需要携带header才能访问的post请求",
+    "request":{
+      "uri":"/post/with/head",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"xiaohong",
+        "sex":"female"
+      }
+    },
+    "response":{
+      "json":{
+        "zhangsan":"success",
+        "status":"1"
+      }
+    }
+  }
+]
